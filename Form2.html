@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOG In</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+  
+table{
+ margin-left: 40%;
+    padding: 50px; 
+    background-color: #fadfad ;
+    border:2px solid black;
+}
+td{
+    color:#000080;
+    font-size: large;
+
+}
+input{
+margin: 10px;
+padding: 15px;
+    
+}button {
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color :#f4a460;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+button:hover {
+    color: #001F3F;
+    background-color:#cd853f;
+}
+
+    </style>
+<body></body>
+    <form action="#" method="post">
+       
+ <table>
+    <h1>LOG IN</h1>
+    <tr>
+        <td style="font-size:x-large;color: #000;">NAME</td>
+    </tr><tr>
+    <td><input type="text" id="name" name="name" placeholder="Enter your name"></td>
+    </tr>
+    <tr>
+        <td style="font-size:x-large;color: #000;">PASSWORD</td>
+    </tr>
+    <tr>
+      <td><input type="password" id="pass" name="pass" placeholder="Enter your password"></td>
+    </tr>
+    <tr>
+
+<td style="font-size:x-large;color: #000;">GENDER</td>
+    <tr>
+        <td>   <input type="radio" id="gender"  name="gender">MALE</td>
+    </tr>
+    <tr>
+    <td> <input type ="radio" id="gender" name="gender">FEMALE</td>  
+    </tr>
+    </tr>
+    <tr>
+        <td style="font-size:x-large; color: #000;">COURSE</td>
+        <tr>
+            <td>   <input type="checkbox" id="COURSE"  name="HTML">HTML</td>
+        </tr>
+        <tr>
+        <td> <input type ="checkbox" id="COURSE" name="CSS">CSS</td>  
+        </tr>
+        <tr>
+            <td> <input type ="checkbox" id="COURSE" name="JS">JAVASCRIPT</td>  
+            </tr>
+            <tr>
+                <td> <input type ="checkbox" id="COURSE" name="JAVA">JAVA</td>  
+                </tr>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="alert('your form is submitted')">Submit</button>
+
+        </td>
+    </tr>
+
+ </table>
+
+        
+    </form>
+    
+</body>
+</html>
